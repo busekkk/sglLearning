@@ -30,7 +30,6 @@ class MainActivity : AppCompatActivity() {
                     val nameIx = cursor.getColumnIndex("name")
                     val ageIx = cursor.getColumnIndex("age")
                     val idIx = cursor.getColumnIndex("id")
-//                    val idIx = cursor.getColumnIndex("id")
 
                     while(cursor.moveToNext()){
 
